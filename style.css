@@ -1,0 +1,555 @@
+body {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 300px;
+    height: 300px;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 13px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    transition: transform 0.3s ease;
+}
+
+nav .navb a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+
+}
+
+
+
+nav .navs a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 13px;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+    transition: transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #cbf094;
+
+    transform: scale(1.05);
+
+}
+
+a,
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #1C9963;
+}
+
+
+
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.cardd {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+.card p {
+    text-align: center;
+    color: #666;
+    margin-top: 10px;
+}
+
+
+
+.header-content h1 {
+    text-align: center;
+    margin-left: 0;
+    color: #fff;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 125px;
+
+
+
+}
+
+.academics {
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+
+}
+
+.academic {
+    display: flex;
+    justify-content: center;
+    margin-left: 90px;
+
+
+}
+
+.Admission {
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+
+
+}
+
+.r {
+    display: flex;
+    justify-content: start;
+    gap: 200px;
+
+}
+
+
+.para {
+    display: flex;
+    justify-content: center;
+    margin-left: 350px;
+}
+
+.paraa {
+    display: flex;
+    justify-content: center;
+    margin-left: 180px;
+}
+
+.res {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.academic_img img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.academic_img_phd img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.det {
+    background-color: aliceblue;
+}
+
+.center p {
+    background-color: aliceblue;
+}
+
+.research {
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.faculty_title {
+    display: flex;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+.faculty {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.faculty img {
+    width: 100%;
+    margin-bottom: 20px;
+    ;
+}
+
+.faculty_para {
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.header-content h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    color: #fff;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+
+
+
+}
+
+.header-content h3 {
+    text-align: center;
+    margin-left: 0;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.list_pics {
+    display: flex;
+    width: 1000px;
+    height: 300px;
+    overflow: hidden;
+    border: 2px solid #333;
+    margin: 40px auto;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    animation: scroll-right 20s linear infinite;
+}
+
+.image-strip img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+@keyframes scroll-right {
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(-200px);
+    }
+
+    20% {
+        transform: translateX(-600px);
+    }
+
+    30% {
+        transform: translateX(-800px);
+    }
+
+    40% {
+        transform: translateX(-1000px);
+    }
+
+    50% {
+        transform: translateX(-1200px);
+
+    }
+
+    60% {
+        transform: translateX(-1400px);
+    }
+
+    70% {
+        transform: translateX(-1600px);
+    }
+
+    80% {
+        transform: translateX(-1800px);
+    }
+
+    90% {
+        transform: translateX(-2000px);
+    }
+
+    100% {
+        transform: translateX(-2200px);
+    }
+}
+
+.r {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.cardlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.page-content {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.page-content h3 {
+    text-align: center;
+    margin-left: 0;
+    color: #333;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+footer {
+    background-color: #606d72;
+    padding-top: 30px;
+    margin-top: 30px;
+
+
+}
+
+
+
+footer address {
+    margin-top: 50px;
+}
+
+.footer-list {
+    padding-left: 0;
+    padding-top: 15px;
+}
+
+.footer-list>li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.btn-footer,
+.btn-footer:hover {
+    background-color: #1C9963;
+    color: #fff;
+    opacity: 1;
+    text-align: left;
+}
+
+.btn-footer:hover {
+    opacity: 0.9;
+}
+
+#foot {
+    background-color: #1C9963;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 0px 10px 0px;
+    height: 60px;
+}
+
+#foot p {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+}
+
+/* Container */
+.container,
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+
+
+}
+
+/* Grid system */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+[class*="col-"] {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+
+.col-xs-11 {
+    flex: 0 0 91.6667%;
+    max-width: 91.6667%;
+}
+
+.col-xs-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.col-sm-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.col-sm-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+.col-md-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-md-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.col-md-5 {
+    flex: 0 0 41.6667%;
+    max-width: 41.6667%;
+}
+
+.col-md-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-lg-2 {
+    flex: 0 0 16.6667%;
+    max-width: 16.6667%;
+}
+
+.col-lg-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+}
+
+.col-lg-8 {
+    flex: 0 0 66.6667%;
+    max-width: 66.6667%;
+}
+
+.col-lg-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+
+.label {
+    display: inline-block;
+    padding: 3px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #5bc0de;
+    border-radius: 3px;
+    margin: 3px;
+    text-decoration: none;
+}
+
+
+.label-brand {
+    background-color: #337ab7;
+}
+
+
+.footer-label {
+    display: inline-block;
+    margin: 2px 5px 2px 0;
+}
+
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin: 5px 0;
+}
+
+.footer-list a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
