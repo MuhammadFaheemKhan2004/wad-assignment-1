@@ -4,255 +4,206 @@
 <head>
     <meta charset="UTF-8">
     <title>Cs Qau</title>
-
-
-    <link rel="stylesheet" href="style.css">
+    <!-- Include Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <h2>Department of Computer Sciences<br><small>Quaid-i-Azam University, Islamabad</small></h2>
-    <header>
-        <nav>
-            <div class="navb"><a href="index.html">Home</a>
-                <a href="Acedemics.html">Academics</a>
-                <a href="Research.html">Research</a>
-                <a href="Funded_projects.html">Funded Projects</a>
-                <a href="Admission.html">Admissions</a>
-                <a href="Faculty.html">Faculty</a>
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <header class="bg-[url('home.jpg')] bg-cover bg-center text-white py-8">
+        <h2 class="text-center text-xl">Department of Computer Sciences<br><small class="text-sm">Quaid-i-Azam
+                University, Islamabad</small></h2>
+        <nav class="flex justify-between items-center px-6 py-4">
+            <div class="space-x-4">
+                <a href="index.html" class="text-white hover:text-gray-300">Home</a>
+                <a href="Acedemics.html" class="text-white hover:text-gray-300">Academics</a>
+                <a href="Research.html" class="text-white hover:text-gray-300">Research</a>
+                <a href="Funded_projects.html" class="text-white hover:text-gray-300">Funded Projects</a>
+                <a href="Admission.html" class="text-white hover:text-gray-300">Admissions</a>
+                <a href="Faculty.html" class="text-white hover:text-gray-300">Faculty</a>
             </div>
-            <div class="navs">
-                <a href="https://gdsc.community.dev/quaid-i-azam-university/" target="QAU">Google
-                    GDSC</a>
-                <a href="Jobs.html" target="QAU">Jobs</a>
-                <a href="http://alumni.cs.qau.edu.pk/" target="QAU">Alumni</a>
-                <a href="http://www.qau.edu.pk/" target="QAU">QAU</a>
-                <a href="contactUs.php">Contact Us</a>
+            <div class="space-x-4">
+                <a href="https://gdsc.community.dev/quaid-i-azam-university/" target="QAU"
+                    class="text-white hover:text-gray-300">Google GDSC</a>
+                <a href="Jobs.html" target="QAU" class="text-white hover:text-gray-300">Jobs</a>
+                <a href="http://alumni.cs.qau.edu.pk/" target="QAU" class="text-white hover:text-gray-300">Alumni</a>
+                <a href="http://www.qau.edu.pk/" target="QAU" class="text-white hover:text-gray-300">QAU</a>
+                <a href="contactUs.php" class="text-white hover:text-gray-300">Contact Us</a>
             </div>
-
         </nav>
-        <section id="one">
+        <section id="one" class=" text-center py-10">
             <div class="header-content">
-
-                <h1>Department of Computer Sciences</h1>
-                <h3>Quaid-i-Azam University, Islamabad</h3>
-
-
-
+                <h1 class="text-3xl font-bold">Department of Computer Sciences</h1>
+                <h3 class="text-xl mt-2">Quaid-i-Azam University, Islamabad</h3>
             </div>
         </section>
-
     </header>
 
-    <div class="container">
+    <div class="container mx-auto py-8 px-4">
         <section>
-            <h3>Important Documents</h3>
-
-            <ul>
-                <li><a href="timetable.pdf">Time Table</a></li>
-                <li><a href="semester-schedule.pdf">Semester Schedule</a></li>
-                <li><a href="university-facilities.pdf">University Facilities</a></li>
+            <h3 class="text-2xl font-semibold mb-4">Important Documents</h3>
+            <ul class="list-disc ml-6">
+                <li><a href="timetable.pdf" class="text-blue-600 hover:underline">Time Table</a></li>
+                <li><a href="semester-schedule.pdf" class="text-blue-600 hover:underline">Semester Schedule</a></li>
+                <li><a href="university-facilities.pdf" class="text-blue-600 hover:underline">University Facilities</a>
+                </li>
             </ul>
-            <h3>Latest News</h3>
-            <ul>
+            <h3 class="text-2xl font-semibold mt-6 mb-4">Latest News</h3>
+            <ul class="list-disc ml-6">
                 <li>Quaid-i-Azam University in "Computer Science and Information Systems" ranked <b>301-350</b>
                     worldwide and <b>third</b> nationally by <a
                         href="https://www.topuniversities.com/university-subject-rankings/computer-science-information-systems"
-                        target="RANKINGS">QS Rankings 2025</a></li>
+                        target="RANKINGS" class="text-blue-600 hover:underline">QS Rankings 2025</a></li>
                 <li>Seminar on <a
-                        href="https://www.facebook.com/story.php?story_fbid=705090698458911&id=100068739602961">Entrepreneurial
-                        and Growth Dynamics in the Tech Landscape</a> by Usman Asif, CEO, DevSinc</li>
-                <li><a href="https://www.facebook.com/QAUCSAlumniOfficial/">CS Alumni Annual Event 2024</a> was held
+                        href="https://www.facebook.com/story.php?story_fbid=705090698458911&id=100068739602961"
+                        class="text-blue-600 hover:underline">Entrepreneurial and Growth Dynamics in the Tech
+                        Landscape</a> by Usman Asif, CEO, DevSinc</li>
+                <li><a href="https://www.facebook.com/QAUCSAlumniOfficial/" class="text-blue-600 hover:underline">CS
+                        Alumni Annual Event 2024</a> was held
                     on Feb 25, 2024 in Islamabad Club</li>
-                <li><a href="https://qau.edu.pk/qauob/">QAU Orientation Booklet 2023-2024</a> has been published
-                </li>
+                <li><a href="https://qau.edu.pk/qauob/" class="text-blue-600 hover:underline">QAU Orientation Booklet
+                        2023-2024</a> has been published</li>
                 <li>Students from CS Dept got first positions in On Spot Programming and Hackathon competitions in
                     the 8th ExcITe Cup organized by CUST, Islamabad</li>
             </ul>
+        </section>
 
-
-            <div class="list_pics">
-                <div class="item">
-                    <img src="ranking.jpg" alt="Computer Science Ranking in Pakistan">
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Gallery</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="ranking.jpg" alt="Computer Science Ranking in Pakistan"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
                     <img src="excite-cup.jpg"
-                        alt="Students won On-Spot Programming and Hackathon competitions at 8th ExcITe Cup">
+                        alt="Students won On-Spot Programming and Hackathon competitions at 8th ExcITe Cup"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept15.jpg" alt="Annual Alumni Gathering at Marriott, Islamabad, 2022">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept15.jpg" alt="Annual Alumni Gathering at Marriott, Islamabad, 2022"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept2.JPG" alt="ICET conference organized by the department">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept2.JPG" alt="ICET conference organized by the department"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept5.JPG" alt="Annual Alumni Gathering at Marriott, Islamabad, 2019">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept5.JPG" alt="Annual Alumni Gathering at Marriott, Islamabad, 2019"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept8.JPG" alt="Poster competition organized by the department">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept8.JPG" alt="Poster competition organized by the department"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept6.JPG" alt="A seminar being conducted by the deparment">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept6.JPG" alt="A seminar being conducted by the department"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept10.JPG" alt="A departmental trip to Khanpur lake, KPK">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept10.JPG" alt="A departmental trip to Khanpur lake, KPK"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept4.JPG" alt="Graduation ceremony">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept4.JPG" alt="Graduation ceremony"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept9.JPG" alt="Graduation ceremony">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept9.JPG" alt="Graduation ceremony"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept12.JPG" alt="Graduation ceremony of BS Batch 2016-2020">
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept12.JPG" alt="Graduation ceremony of BS Batch 2016-2020"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
-                <div class="item">
-                    <img src="dept14.JPG" alt="Graduation ceremony of BS Batch 2017-2021">
-                </div>
-                <div class="item">
-                    <img src="dept1.JPG" alt="Entrance to the university">
-                </div>
-                <div class="item">
-                    <img src="dept3.JPG" alt="A view of the university">
-                </div>
-                <div class="item">
-                    <img src="dept7.JPG" alt="A view of the university">
-                </div>
-                <div class="item">
-                    <img src="dept11.JPG" alt="A view from the central library">
-                </div>
-                <div class="item">
-                    <img src="dept13.JPG" alt="Cricket ground of the univeresity">
-                </div>
-
-            </div>
-
-
-
-            <h3>Introduction</h3>
-            <div class="row">
-                <div class="col-xs-12  text-justify">
-                    <p>The Department of Computer Sciences at Quaid-i-Azam University is considered as one of the
-                        best computer science departments in Pakistan. The department is ranked among the top 3
-                        departments in the country as per QS and Times Higher Education (THE) rankings. It was
-                        established at Quaid-i-Azam University Islamabad in 1976. The main objective of the
-                        department is to produce Computer Scientists in order to meet the growing demand for
-                        computer professionals in the country. All the programs have been highly successful.
-                        Department graduates have attained higher degrees from developed countries and are working
-                        in national and international organizations. The department offers PhD (Computer Science),
-                        MPhil (Computer Science), MS (Information Science &amp; Technology), MS (Data Science), and
-                        BS (Computer Science) degrees. Each degree program has a specific objective and focus. The
-                        course of study and syllabus for each degree is updated and is inline with its objectives.
-                    </p>
+                <div class="item transition-transform transform hover:scale-105 duration-300 ease-in-out">
+                    <img src="dept14.JPG" alt="Graduation ceremony of BS Batch 2017-2021"
+                        class="w-full h-auto rounded-lg shadow-lg transition-transform duration-300 ease-in-out hover:scale-105">
                 </div>
             </div>
-    </div>
-    </section>
-
-    <section>
-        <h3>Research</h3>
-        <hr>
-        <div class="page-content">
+        </section>
 
 
-            <div class="cardlist">
-                <div class="card">
-                    <h4>Human Information Interaction</h4>
-                    <img src="networks.jpg" class="img-responsive img-blog">
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Introduction</h3>
+            <p class="text-justify">The Department of Computer Sciences at Quaid-i-Azam University is considered as one
+                of the
+                best computer science departments in Pakistan. The department is ranked among the top 3
+                departments in the country as per QS and Times Higher Education (THE) rankings. It was
+                established at Quaid-i-Azam University Islamabad in 1976. The main objective of the
+                department is to produce Computer Scientists in order to meet the growing demand for
+                computer professionals in the country. All the programs have been highly successful.
+                Department graduates have attained higher degrees from developed countries and are working
+                in national and international organizations. The department offers PhD (Computer Science),
+                MPhil (Computer Science), MS (Information Science &amp; Technology), MS (Data Science), and
+                BS (Computer Science) degrees. Each degree program has a specific objective and focus. The
+                course of study and syllabus for each degree is updated and is inline with its objectives.
+            </p>
+        </section>
+
+        <section class="mt-8">
+            <h3 class="text-2xl font-semibold mb-4">Research</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="card bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Human Information Interaction</h4>
+                    <img src="networks.jpg" class="w-full h-auto rounded-lg mb-4">
                     <p>Investigates all aspects of information usage by humans. Research focus varies for
                         information seeking behavior, Information Interaction Techniques, Storage and Retrieval
                         models/frameworks for structured and unstructured information, and information services for
                         human information needs</p>
-
                 </div>
-                <div class="card">
-                    <h4>Knowledge Engineering</h4>
-                    <img src="cloud.jpg" class="img-responsive img-blog">
-
-                    <hr>
-                    <p>Focuses on analyze of data, metadata and knowledge using supervised and unsupervised mining
-                        algorithms. The target areas will be software architecture, web services and overlay
+                <div class="card bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Knowledge Engineering</h4>
+                    <img src="cloud.jpg" class="w-full h-auto rounded-lg mb-4">
+                    <p>Focuses on analysis of data, metadata, and knowledge using supervised and unsupervised mining
+                        algorithms. The target areas will be software architecture, web services, and overlay
                         networks. The main goal is to process related and uncorrelated facts and extract meaningful
-                        contextual knowledge for quality decision making.</p>
+                        contextual knowledge for quality decision-making.</p>
                 </div>
-                <div class="card">
-                    <h4>Networking and Communication</h4>
-                    <img src="database.jpg" class="img-responsive img-blog">
-
-                    <hr>
+                <div class="card bg-white p-6 rounded-lg shadow-lg">
+                    <h4 class="text-xl font-semibold mb-2">Networking and Communication</h4>
+                    <img src="database.jpg" class="w-full h-auto rounded-lg mb-4">
                     <p>This group investigates the applied aspects in the domains of networking, communication,
-                        security and privacy. The research group focuses on a number of areas including but not
+                        security, and privacy. The research group focuses on a number of areas including but not
                         limited to computer networks, distributed systems, mobile Agent-based distributed systems,
-                        routing protocols, peer-to-peer computing, security and privacy.</p>
-
-
+                        routing protocols, peer-to-peer computing, security, and privacy.</p>
                 </div>
             </div>
-    </section>
+        </section>
+    </div>
 
-
-
-
-
-
-
-    <footer>
-        <div class="container">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-11 col-sm-8 col-md-9 col-lg-9">
-                        <div class="row">
-                            <div class="col-xs-11 col-sm-4 col-md-4 col-lg-4">
-                                <h4>Useful links</h4>
-                                <div>
-                                    <a href="http://www.qau.edu.pk/" target="QAU"><span
-                                            class="label label-brand footer-label">QAU</span></a>
-                                    <a href="admissions.php"><span
-                                            class="label label-brand footer-label">Admissions</span></a>
-                                    <a href="contactUs.php"><span
-                                            class="label label-brand footer-label">Contact</span></a>
-                                    <!-- <a href="#"><span class="label label-brand footer-label">Downloads</span></a> -->
-                                </div>
-                                <address>
-                                    <strong>Department of Computer Sciences,</strong><br>
-                                    <strong>Quaid-i-Azam University,</strong><br>
-                                    Islamabad, 45320, Pakistan<br>
-                                    Tel : +92 (051) 9064-2057
-                                </address>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 col-md-5 col-lg-8">
-                                <h4>Our Programs</h4>
-                                <ul class="footer-list">
-                                    <li><a href="Phd.php">PhD (Computer Science)</a></li>
-                                    <li><a href="ms.php">MS (Information Science &amp; Technology)</a></li>
-                                    <li><a href="mphil.php">MPhil (Computer Science)</a></li>
-                                    <li><a href="ms-ds.php">MS (Data Science)</a></li>
-                                    <li><a href="Bs.php">BS (Computer Science)</a></li>
-
-                                </ul>
-                            </div>
-
-
-                        </div>
+    <footer class="bg-blue-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap justify-between">
+                <div class="w-full sm:w-1/2 md:w-1/3 mb-6">
+                    <h4 class="text-xl font-semibold mb-2">Useful links</h4>
+                    <div>
+                        <a href="http://www.qau.edu.pk/" target="QAU" class="text-white hover:text-gray-300">QAU</a><br>
+                        <a href="admissions.php" class="text-white hover:text-gray-300">Admissions</a><br>
+                        <a href="contactUs.php" class="text-white hover:text-gray-300">Contact</a><br>
                     </div>
-
+                    <address class="mt-4">
+                        <strong>Department of Computer Sciences,</strong><br>
+                        Quaid-i-Azam University, Islamabad, 45320, Pakistan<br>
+                        Tel: +92 (051) 9064-2057
+                    </address>
+                </div>
+                <div class="w-full sm:w-1/2 md:w-2/3">
+                    <h4 class="text-xl font-semibold mb-2">Our Programs</h4>
+                    <ul>
+                        <li><a href="Phd.php" class="text-white hover:text-gray-300">PhD (Computer Science)</a></li>
+                        <li><a href="ms.php" class="text-white hover:text-gray-300">MS (Information Science &amp;
+                                Technology)</a></li>
+                        <li><a href="mphil.php" class="text-white hover:text-gray-300">MPhil (Computer Science)</a></li>
+                        <li><a href="ms-ds.php" class="text-white hover:text-gray-300">MS (Data Science)</a></li>
+                        <li><a href="Bs.php" class="text-white hover:text-gray-300">BS (Computer Science)</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-
-        <div id="foot">
-            <div class="container">
-                <div class="container-fluid">
-                    <p class="text-center">2025 &copy; Department of Computer Sciences, QAU, Islamabad</p>
-                </div>
-            </div>
+        <div class="bg-blue-900 text-center py-4">
+            <p>2025 &copy; Department of Computer Sciences, QAU, Islamabad</p>
         </div>
     </footer>
-
-
-
-
-
-
 </body>
 
 </html>
